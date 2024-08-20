@@ -26,3 +26,12 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+
+.mother{
+    background: var(--Very-pale-blue);
+    height: 500px;
+    width: 325px;
+    padding: 1.25rem;
+
+}
