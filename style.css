@@ -19,7 +19,7 @@
 /* mobile 375px */
 
 body {
-    background: url(./images/pattern-background-mobile.svg) var(--Pale-blue) no-repeat;
+    background: var(--Pale-blue) ;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -27,11 +27,15 @@ body {
     align-items: center;
 }
 
+#illustration-hero {
+    height: 31.8%;
+}
+
 
 .mother{
     background: var(--Very-pale-blue);
     height: 500px;
     width: 325px;
-    padding: 1.25rem;
 
 }
+
