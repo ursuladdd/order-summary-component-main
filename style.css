@@ -32,7 +32,7 @@ body {
 #illustration-hero {
     height: 31.8%;
     border-radius: 20px 20px 0 0 ;
-    margin-bottom: 2px;
+    /* margin-bottom: 2px; */
     
 }
 
@@ -45,7 +45,7 @@ body {
 }
 
 .principal {
-    padding: 1.56rem;
+    padding: 20px;
 }
 
 .texts {
@@ -54,7 +54,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 10px;
+    /* gap: 10px; */
     font-size: 1rem;
    
 }
@@ -76,7 +76,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 12px 0 12px 0;
+    margin: 12px 0 16px 0;
     padding: 1rem;
     border-radius: 12px;
     font-size: 1rem;
@@ -93,6 +93,10 @@ body {
     font-weight: 900;
     font-size: 0.93rem;
     margin: 12px 0 0 20px;
+}
+
+.mudar:hover {
+    color: var(--Desaturated-blue);
 }
 
 .Valor {
@@ -116,9 +120,13 @@ body {
     font-weight: 700;
     letter-spacing: 1px;
     color: var(--Very-pale-blue);
-    padding: 0.65rem;
+    padding: 12px;
     border-radius: 8px;
 
+}
+
+.confirmation:hover {
+    box-shadow: 10px 8px 25px var(--Pale-blue);
 }
 
 .cancellation {
