@@ -91,7 +91,8 @@ body {
 .mudar {
     color: var(--Bright-blue);
     font-weight: 900;
-    margin-left: 1rem;
+    font-size: 0.93rem;
+    margin: 12px 0 0 20px;
 }
 
 .Valor {
@@ -104,6 +105,31 @@ body {
 .confirm_or_cancel {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 10px;
+
+}
+
+.confirmation {
+    background-color: var(--Bright-blue);
+    border: none;
+    font-family: var(--font-Red-Hat-Display);
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: var(--Very-pale-blue);
+    padding: 0.65rem;
+    border-radius: 8px;
+
+}
+
+.cancellation {
+    background: none;
+    border: none;
+    color: var(--Desaturated-blue);
+    font-family: var(--font-Red-Hat-Display);
+    font-weight: 700;
+}
+
+footer {
+    display: none;
 }
 
