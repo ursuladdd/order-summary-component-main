@@ -82,6 +82,23 @@ body {
     font-size: 1rem;
 }
 
+.Plan {
+    font-weight: 900;
+    color: var(--Dark-blue);
+    margin-bottom: 3px;
+}
+
+.mudar {
+    color: var(--Bright-blue);
+    font-weight: 900;
+    margin-left: 1rem;
+}
+
+.Valor {
+    font-weight: 500;
+    color: var(--Desaturated-blue);
+}
+
 
 
 .confirm_or_cancel {
