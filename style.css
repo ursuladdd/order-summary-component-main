@@ -122,12 +122,16 @@ body {
     color: var(--Very-pale-blue);
     padding: 12px;
     border-radius: 8px;
+    transition: 0.2s;
 
 }
 
 .confirmation:hover {
     box-shadow: 10px 8px 25px var(--Pale-blue);
+    background: var(--Dark-blue);
+    cursor: pointer;
 }
+
 
 .cancellation {
     background: none;
@@ -135,9 +139,45 @@ body {
     color: var(--Desaturated-blue);
     font-family: var(--font-Red-Hat-Display);
     font-weight: 700;
+    transition: 0.3s;
+}
+
+.cancellation:hover {
+    color: var(--Bright-blue);
+    cursor: pointer;
 }
 
 footer {
     display: none;
+}
+
+@media (min-width: 900px) {
+   
+    body {
+        background: url(./images/pattern-background-desktop.svg) no-repeat var(--Pale-blue);
+        background-size: contain;
+    }
+
+    #illustration-hero {
+        height: 33.9%;
+    }
+
+    .mother {
+        height: 505px;
+        width: 350px;
+    }
+
+    .music_plan {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 12px 0 12px 0;
+    }
+
+    footer {
+        display: block;
+    }
+
+
 }
 
